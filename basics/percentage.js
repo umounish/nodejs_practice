@@ -1,5 +1,7 @@
-const numberOne=25
-const numberTwo=100000
+// program for percentage of number
+
+const numberOne=10
+const numberTwo=1000
 let result;
-result=numberOne%numberTwo
+result = numberOne % numberTwo
 console.log(result);
