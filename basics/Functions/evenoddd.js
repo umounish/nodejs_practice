@@ -1,10 +1,22 @@
-evenOdd(10 , 11 , 12);
+re1 = sumres(10 , 11 , 12);
+evenOdd (re1);
+re2 = sumres(143 , 144, 145);
+evenOdd (re2);
+re3 = sumres(116 , 117, 118);
+evenOdd (re3);
 
-evenOdd(143 , 144, 145);
-
-evenOdd(116 , 117, 118);
-
-function evenOdd(x,y,z) {
-    sum = x+y+z;
+function sumres(x,y,z) {
+    let sum = x+y+z;
+    return sum;
     console.log(`the sum of ${x} and ${y} is: `,sum);
+}
+
+function evenOdd(a) {
+    if (a %2 === 0) {
+    console.log(`the sumvalues ${a} is even`);
+    }
+    else{
+        console.log(`the sumvalues ${a} is odd`);
+    }
+
 }
