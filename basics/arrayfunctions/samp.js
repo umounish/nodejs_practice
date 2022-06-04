@@ -1,16 +1,22 @@
-let numbers = [0,20,3,10,1,2,30];
-numbers.sort( function( a , b)
-{
-    if(a > b) return 1;
-    if(a < b) return -1;
-    return 0;
-});
+// method 1
+let str = 'prabhavathi';
+str = 'kalavathi';
+console.log(str);
 
 
-////
-console.log(numbers);
+//method 1.1
 
-const arrsort = [24,7,29,10];
+const str1 = 'kalavathi';
+console.log(str1);
 
-res = arrsort.sort(function(a, b){return a - b});
-arr.sort(res);
+
+//method 2
+const strRep = 'prabhavathi';
+const resOfReplace = strRep.replace('prabhavathi', 'kalavathi');
+console.log(resOfReplace);
+
+// method 3
+
+const arr = ["kalavathi", "prabhavathi" ];
+arr.pop();
+console.log('by using arraypop method - ', arr);
