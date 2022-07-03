@@ -9,7 +9,7 @@ const joinReversed = reversedStr.join('');
 
 
 if (str === joinReversed) {
-    console.log('given string is a palindrome')
+    console.log('given string ${str} is a palindrome')
 } else
-{console.log('given string is not a palindrome')
+{console.log('given string is ${str} not a palindrome')
 }

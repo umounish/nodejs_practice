@@ -11,12 +11,12 @@ function sumres(x,y,z) {
     console.log(`the sum of ${x} and ${y} is: `,sum);
 }
 
-function evenOdd(a) {
-    if (a %2 === 0) {
-    console.log(`the sumvalues ${a} is even`);
+function evenOdd(sum) {
+    if (sum %2 === 0) {
+    console.log(`the sumvalues ${sum} is even`);
     }
     else{
-        console.log(`the sumvalues ${a} is odd`);
+        console.log(`the sumvalues ${sum} is odd`);
     }
-
+    
 }

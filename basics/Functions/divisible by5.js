@@ -1,14 +1,6 @@
-re1 = sumres(10 , 15 , 25);
-evenOdd (re1);
-re2 = sumres(145 , 150, 195);
-evenOdd (re2);
-re3 = sumres(115 , 117, 119);
-evenOdd (re3);
-
 function sumres(x,y,z) {
     let sum = x+y+z;
     return sum;
-    console.log(`the sum of ${x} and ${y} is: `,sum);
 }
 
 function evenOdd(a) {
@@ -20,3 +12,15 @@ function evenOdd(a) {
     }
 
 }
+
+re1 = sumres(10 , -15 , 25);
+console.log(re1);
+evenOdd (re1);
+
+re2 = sumres(145 , 150, 195);
+console.log(re2);
+evenOdd (re2);
+
+re3 = sumres(115 , 117, 119);
+console.log(re3);
+evenOdd (re3);
